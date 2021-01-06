@@ -32,7 +32,7 @@ module.exports = {
   output: {
     chunkFilename: 'static/js/[name].chunk.js',
     filename: 'static/js/bundle.js',
-    path: path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'docs'),
     publicPath: '/',
   },
 
