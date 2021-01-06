@@ -64,7 +64,69 @@ const App = () => {
             </G.Container>
           </S.Green>
         </G.Column>
+
+        <G.Column m={12}>
+          <h2>With sidebar</h2>
+        </G.Column>
       </G.Grid>
+
+      <S.Page>
+        <G.Grid>
+          <G.Column m={0} d={4}>
+            <S.Sidebar>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                fringilla turpis libero, eget rutrum sem porta et. Duis
+                malesuada congue lorem, non pretium est pellentesque in.
+                Phasellus sapien metus, varius vitae libero bibendum, commodo
+                ornare mi. Pellentesque eu pulvinar tellus. Nam vitae orci orci.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                quis cursus velit, nec scelerisque quam. Aliquam sit amet tortor
+                semper nisi dignissim viverra at vel magna. Aliquam vitae
+                pretium augue, et blandit dui. Etiam id enim non leo
+                sollicitudin porttitor quis et felis. Vestibulum blandit odio
+                nisl, at condimentum tortor hendrerit non. Duis venenatis
+                ultrices est ut laoreet.
+              </p>
+
+              <form>
+                <fieldset>
+                  <legend>Lorem ipsum</legend>
+
+                  <div>
+                    <label htmlFor="lorem">Lorem</label>
+                    <input id="lorem" placeholder="Lorem" type="text" />
+                  </div>
+
+                  <div>
+                    <label htmlFor="ipsum">Ipsum</label>
+                    <input id="ipsum" placeholder="Ipsum" type="text" />
+                  </div>
+
+                  <button type="submit">Dolor sit amet</button>
+                </fieldset>
+              </form>
+            </S.Sidebar>
+          </G.Column>
+
+          <G.Column as={S.Content} m={12} d={8}>
+            <G.Container>
+              <G.Column m={12}>
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <S.White />
+              </G.Column>
+
+              <G.Column m={12} t={12 / 2}>
+                <S.Blue />
+              </G.Column>
+
+              <G.Column m={12} t={12 / 2}>
+                <S.Blue />
+              </G.Column>
+            </G.Container>
+          </G.Column>
+        </G.Grid>
+      </S.Page>
     </>
   )
 }
