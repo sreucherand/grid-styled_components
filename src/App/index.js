@@ -48,7 +48,7 @@ const App = () => {
 
       <G.Grid>
         <G.Column m={12}>
-          <h2>Nested triptych</h2>
+          <h2>Nested grid</h2>
         </G.Column>
 
         <G.Column m={12} t={8} t-offset={2}>
