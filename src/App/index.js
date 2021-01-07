@@ -15,7 +15,7 @@ const App = () => {
           <h2>Block</h2>
         </G.Column>
 
-        <G.Column d={3} m={12} t={6}>
+        <G.Column m={12} t={6} d={3}>
           <S.Blue />
         </G.Column>
 
@@ -23,7 +23,7 @@ const App = () => {
           <h2>Block with offset</h2>
         </G.Column>
 
-        <G.Column d={3} d-offset={3} m={12} t={6} t-offset={6}>
+        <G.Column m={12} t={6} t-offset={6} d={3} d-offset={3}>
           <S.Red />
         </G.Column>
         <G.Grid></G.Grid>

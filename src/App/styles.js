@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components"
 
-import * as breakpoints from "../core/breakpoints"
+import { breakpoints } from "../core/layout"
 
 const Block = styled.div`
   border-radius: 8px;

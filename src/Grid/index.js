@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import styled, { css } from "styled-components"
 
-import * as breakpoints from "../core/breakpoints"
+import { breakpoints } from "../core/layout"
 
 export const columnsCount = 12
 
